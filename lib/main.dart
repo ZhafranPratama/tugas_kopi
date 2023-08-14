@@ -50,12 +50,10 @@ class _MyHomePageState extends State<MyHomePage> {
                 height: 300,
                 width: 300,
               ),
-              Text(
-                'Brew Day',
-                style: TextStyle(
-                    color: Colors.brown[400],
-                    fontSize: 30,
-                    fontWeight: FontWeight.w900),
+              Image.asset(
+                'assets/images/koprantext.png',
+                height: 100,
+                width: 400,
               ),
               SizedBox(
                 height: 20,
